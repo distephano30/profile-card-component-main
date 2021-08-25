@@ -1,0 +1,61 @@
+:root{
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --desaturated-blue: hsl(229, 23%, 23%);
+  --Dar-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+body{
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background: var(--Dark-cyan);
+  background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: -400px -600px, 600px 400px;
+}
+.card{
+  background: white;
+  background-image: url('images/bg-pattern-card.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  width: 80%;
+  max-width: 400px;
+  margin: 100px auto 1px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.profile-picture{
+  margin: 80px auto 10px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url('images/image-victor.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.name{
+  font-weight: 700;
+}
+span, .city, h5{
+  color: var(--Dark-gray);
+}
+h4, h5{
+  margin: 10px auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+.numbers{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+}
+
+@media (max-width:400px) {
+  .numbers{
+    font-size: 12px;
+  }
+}
