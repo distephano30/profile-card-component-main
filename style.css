@@ -54,7 +54,7 @@ h4, h5{
   margin: 20px auto;
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   .numbers{
     font-size: 12px;
   }
