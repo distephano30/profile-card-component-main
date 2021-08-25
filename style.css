@@ -44,7 +44,7 @@ span, .city, h5{
 h4, h5{
   margin: 10px auto;
   text-align: center;
-  /* text-transform:  */
+  text-transform: capitalize;
 }
 .numbers{
   display: flex;
