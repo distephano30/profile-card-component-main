@@ -58,4 +58,10 @@ h4, h5{
   .numbers{
     font-size: 12px;
   }
+  body{
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%, 100% 100%;
+    background-position: -100px -300px, 200px 350px;
+  }
 }
